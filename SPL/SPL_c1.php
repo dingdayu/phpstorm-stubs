@@ -5,13 +5,13 @@
 /**
  * The SplFileInfo class offers a high-level object oriented interface to
  * information for an individual file.
- * @link http://php.net/manual/en/class.splfileinfo.php
+ * @link http://php.net/manual/zh/class.splfileinfo.php
  */
 class SplFileInfo  {
 
         /**
          * Construct a new SplFileInfo object
-         * @link http://php.net/manual/en/splfileinfo.construct.php
+         * @link http://php.net/manual/zh/splfileinfo.construct.php
          * @param $file_name
          * @since 5.1.2
          */
@@ -19,7 +19,7 @@ class SplFileInfo  {
 
         /**
          * Gets the path without filename
-         * @link http://php.net/manual/en/splfileinfo.getpath.php
+         * @link http://php.net/manual/zh/splfileinfo.getpath.php
          * @return string the path to the file.
          * @since 5.1.2
          */
@@ -27,7 +27,7 @@ class SplFileInfo  {
 
         /**
          * Gets the filename
-         * @link http://php.net/manual/en/splfileinfo.getfilename.php
+         * @link http://php.net/manual/zh/splfileinfo.getfilename.php
          * @return string The filename.
          * @since 5.1.2
          */
@@ -35,7 +35,7 @@ class SplFileInfo  {
 
         /**
          * Gets the file extension
-         * @link http://php.net/manual/en/splfileinfo.getextension.php
+         * @link http://php.net/manual/zh/splfileinfo.getextension.php
 	 * @return string a string containing the file extension, or an
 	 * empty string if the file has no extension.
          * @since 5.3.6
@@ -44,7 +44,7 @@ class SplFileInfo  {
 
         /**
          * Gets the base name of the file
-         * @link http://php.net/manual/en/splfileinfo.getbasename.php
+         * @link http://php.net/manual/zh/splfileinfo.getbasename.php
          * @param string $suffix [optional] <p>
          * Optional suffix to omit from the base name returned.
          * </p>
@@ -55,7 +55,7 @@ class SplFileInfo  {
 
         /**
          * Gets the path to the file
-         * @link http://php.net/manual/en/splfileinfo.getpathname.php
+         * @link http://php.net/manual/zh/splfileinfo.getpathname.php
          * @return string The path to the file.
          * @since 5.1.2
          */
@@ -63,7 +63,7 @@ class SplFileInfo  {
 
         /**
          * Gets file permissions
-         * @link http://php.net/manual/en/splfileinfo.getperms.php
+         * @link http://php.net/manual/zh/splfileinfo.getperms.php
          * @return int the file permissions.
          * @since 5.1.2
          */
@@ -71,7 +71,7 @@ class SplFileInfo  {
 
         /**
          * Gets the inode for the file
-         * @link http://php.net/manual/en/splfileinfo.getinode.php
+         * @link http://php.net/manual/zh/splfileinfo.getinode.php
          * @return int the inode number for the filesystem object.
          * @since 5.1.2
          */
@@ -79,7 +79,7 @@ class SplFileInfo  {
 
         /**
          * Gets file size
-         * @link http://php.net/manual/en/splfileinfo.getsize.php
+         * @link http://php.net/manual/zh/splfileinfo.getsize.php
          * @return int The filesize in bytes.
          * @since 5.1.2
          */
@@ -87,7 +87,7 @@ class SplFileInfo  {
 
         /**
          * Gets the owner of the file
-         * @link http://php.net/manual/en/splfileinfo.getowner.php
+         * @link http://php.net/manual/zh/splfileinfo.getowner.php
          * @return int The owner id in numerical format.
          * @since 5.1.2
          */
@@ -95,7 +95,7 @@ class SplFileInfo  {
 
         /**
          * Gets the file group
-         * @link http://php.net/manual/en/splfileinfo.getgroup.php
+         * @link http://php.net/manual/zh/splfileinfo.getgroup.php
          * @return int The group id in numerical format.
          * @since 5.1.2
          */
@@ -103,7 +103,7 @@ class SplFileInfo  {
 
         /**
          * Gets last access time of the file
-         * @link http://php.net/manual/en/splfileinfo.getatime.php
+         * @link http://php.net/manual/zh/splfileinfo.getatime.php
          * @return int the time the file was last accessed.
          * @since 5.1.2
          */
@@ -111,7 +111,7 @@ class SplFileInfo  {
 
         /**
          * Gets the last modified time
-         * @link http://php.net/manual/en/splfileinfo.getmtime.php
+         * @link http://php.net/manual/zh/splfileinfo.getmtime.php
          * @return int the last modified time for the file, in a Unix timestamp.
          * @since 5.1.2
          */
@@ -119,7 +119,7 @@ class SplFileInfo  {
 
         /**
          * Gets the inode change time
-         * @link http://php.net/manual/en/splfileinfo.getctime.php
+         * @link http://php.net/manual/zh/splfileinfo.getctime.php
          * @return int The last change time, in a Unix timestamp.
          * @since 5.1.2
          */
@@ -127,7 +127,7 @@ class SplFileInfo  {
 
         /**
          * Gets file type
-         * @link http://php.net/manual/en/splfileinfo.gettype.php
+         * @link http://php.net/manual/zh/splfileinfo.gettype.php
          * @return string A string representing the type of the entry.
          * May be one of file, link,
          * or dir
@@ -137,7 +137,7 @@ class SplFileInfo  {
 
         /**
          * Tells if the entry is writable
-         * @link http://php.net/manual/en/splfileinfo.iswritable.php
+         * @link http://php.net/manual/zh/splfileinfo.iswritable.php
          * @return bool true if writable, false otherwise;
          * @since 5.1.2
          */
@@ -145,7 +145,7 @@ class SplFileInfo  {
 
         /**
          * Tells if file is readable
-         * @link http://php.net/manual/en/splfileinfo.isreadable.php
+         * @link http://php.net/manual/zh/splfileinfo.isreadable.php
          * @return bool true if readable, false otherwise.
          * @since 5.1.2
          */
@@ -153,7 +153,7 @@ class SplFileInfo  {
 
         /**
          * Tells if the file is executable
-         * @link http://php.net/manual/en/splfileinfo.isexecutable.php
+         * @link http://php.net/manual/zh/splfileinfo.isexecutable.php
          * @return bool true if executable, false otherwise.
          * @since 5.1.2
          */
@@ -161,7 +161,7 @@ class SplFileInfo  {
 
         /**
          * Tells if the object references a regular file
-         * @link http://php.net/manual/en/splfileinfo.isfile.php
+         * @link http://php.net/manual/zh/splfileinfo.isfile.php
          * @return bool true if the file exists and is a regular file (not a link), false otherwise.
          * @since 5.1.2
          */
@@ -169,7 +169,7 @@ class SplFileInfo  {
 
         /**
          * Tells if the file is a directory
-         * @link http://php.net/manual/en/splfileinfo.isdir.php
+         * @link http://php.net/manual/zh/splfileinfo.isdir.php
          * @return bool true if a directory, false otherwise.
          * @since 5.1.2
          */
@@ -177,7 +177,7 @@ class SplFileInfo  {
 
         /**
          * Tells if the file is a link
-         * @link http://php.net/manual/en/splfileinfo.islink.php
+         * @link http://php.net/manual/zh/splfileinfo.islink.php
          * @return bool true if the file is a link, false otherwise.
          * @since 5.1.2
          */
@@ -185,7 +185,7 @@ class SplFileInfo  {
 
         /**
          * Gets the target of a link
-         * @link http://php.net/manual/en/splfileinfo.getlinktarget.php
+         * @link http://php.net/manual/zh/splfileinfo.getlinktarget.php
          * @return string the target of the filesystem link.
          * @since 5.2.2
          */
@@ -193,7 +193,7 @@ class SplFileInfo  {
 
         /**
          * Gets absolute path to file
-         * @link http://php.net/manual/en/splfileinfo.getrealpath.php
+         * @link http://php.net/manual/zh/splfileinfo.getrealpath.php
          * @return string the path to the file.
          * @since 5.2.2
          */
@@ -201,7 +201,7 @@ class SplFileInfo  {
 
         /**
          * Gets an SplFileInfo object for the file
-         * @link http://php.net/manual/en/splfileinfo.getfileinfo.php
+         * @link http://php.net/manual/zh/splfileinfo.getfileinfo.php
          * @param string $class_name [optional] <p>
 	 * Name of an <b>SplFileInfo</b> derived class to use.
          * </p>
@@ -212,7 +212,7 @@ class SplFileInfo  {
 
         /**
          * Gets an SplFileInfo object for the path
-         * @link http://php.net/manual/en/splfileinfo.getpathinfo.php
+         * @link http://php.net/manual/zh/splfileinfo.getpathinfo.php
          * @param string $class_name [optional] <p>
 	 * Name of an <b>SplFileInfo</b> derived class to use.
          * </p>
@@ -223,7 +223,7 @@ class SplFileInfo  {
 
         /**
          * Gets an SplFileObject object for the file
-         * @link http://php.net/manual/en/splfileinfo.openfile.php
+         * @link http://php.net/manual/zh/splfileinfo.openfile.php
          * @param string $open_mode [optional] <p>
 	 * The mode for opening the file. See the <b>fopen</b>
          * documentation for descriptions of possible modes. The default 
@@ -242,7 +242,7 @@ class SplFileInfo  {
 
         /**
 	 * Sets the class name used with <b>SplFileInfo::openFile</b>
-         * @link http://php.net/manual/en/splfileinfo.setfileclass.php
+         * @link http://php.net/manual/zh/splfileinfo.setfileclass.php
          * @param string $class_name [optional] <p>
          * The class name to use when openFile() is called. 
          * </p>
@@ -253,7 +253,7 @@ class SplFileInfo  {
 
         /**
          * Sets the class used with getFileInfo and getPathInfo
-         * @link http://php.net/manual/en/splfileinfo.setinfoclass.php
+         * @link http://php.net/manual/zh/splfileinfo.setinfoclass.php
          * @param string $class_name [optional] <p>
          * The class name to use.
          * </p>
@@ -264,7 +264,7 @@ class SplFileInfo  {
 
         /**
          * Returns the path to the file as a string
-         * @link http://php.net/manual/en/splfileinfo.tostring.php
+         * @link http://php.net/manual/zh/splfileinfo.tostring.php
          * @return string the path to the file.
          * @since 5.1.2
          */
@@ -275,13 +275,13 @@ class SplFileInfo  {
 /**
  * The DirectoryIterator class provides a simple interface for viewing
  * the contents of filesystem directories.
- * @link http://php.net/manual/en/class.directoryiterator.php
+ * @link http://php.net/manual/zh/class.directoryiterator.php
  */
 class DirectoryIterator extends SplFileInfo implements Iterator, Traversable, SeekableIterator {
 
         /**
          * Constructs a new directory iterator from a path
-         * @link http://php.net/manual/en/directoryiterator.construct.php
+         * @link http://php.net/manual/zh/directoryiterator.construct.php
          * @param $path
          * @since 5.0
          */
@@ -290,7 +290,7 @@ class DirectoryIterator extends SplFileInfo implements Iterator, Traversable, Se
 
         /**
          * Determine if current DirectoryIterator item is '.' or '..'
-         * @link http://php.net/manual/en/directoryiterator.isdot.php
+         * @link http://php.net/manual/zh/directoryiterator.isdot.php
          * @return bool true if the entry is . or ..,
          * otherwise false
 	 * @since 5.0
@@ -299,7 +299,7 @@ class DirectoryIterator extends SplFileInfo implements Iterator, Traversable, Se
 
         /**
          * Rewind the DirectoryIterator back to the start
-         * @link http://php.net/manual/en/directoryiterator.rewind.php
+         * @link http://php.net/manual/zh/directoryiterator.rewind.php
          * @return void 
          * @since 5.0
          */
@@ -307,7 +307,7 @@ class DirectoryIterator extends SplFileInfo implements Iterator, Traversable, Se
 
         /**
          * Check whether current DirectoryIterator position is a valid file
-         * @link http://php.net/manual/en/directoryiterator.valid.php
+         * @link http://php.net/manual/zh/directoryiterator.valid.php
          * @return bool true if the position is valid, otherwise false
          * @since 5.0
          */
@@ -315,7 +315,7 @@ class DirectoryIterator extends SplFileInfo implements Iterator, Traversable, Se
 
         /**
          * Return the key for the current DirectoryIterator item
-         * @link http://php.net/manual/en/directoryiterator.key.php
+         * @link http://php.net/manual/zh/directoryiterator.key.php
 	 * @return string The key for the current <b>DirectoryIterator</b> item.
          * @since 5.0
          */
@@ -323,7 +323,7 @@ class DirectoryIterator extends SplFileInfo implements Iterator, Traversable, Se
 
         /**
          * Return the current DirectoryIterator item.
-         * @link http://php.net/manual/en/directoryiterator.current.php
+         * @link http://php.net/manual/zh/directoryiterator.current.php
 	 * @return DirectoryIterator The current <b>DirectoryIterator</b> item.
          * @since 5.0
          */
@@ -331,7 +331,7 @@ class DirectoryIterator extends SplFileInfo implements Iterator, Traversable, Se
 
         /**
          * Move forward to next DirectoryIterator item
-         * @link http://php.net/manual/en/directoryiterator.next.php
+         * @link http://php.net/manual/zh/directoryiterator.next.php
          * @return void 
          * @since 5.0
          */
@@ -339,7 +339,7 @@ class DirectoryIterator extends SplFileInfo implements Iterator, Traversable, Se
 
         /**
          * Seek to a DirectoryIterator item
-         * @link http://php.net/manual/en/directoryiterator.seek.php
+         * @link http://php.net/manual/zh/directoryiterator.seek.php
          * @param int $position <p>
          * The zero-based numeric position to seek to.
          * </p>
@@ -351,7 +351,7 @@ class DirectoryIterator extends SplFileInfo implements Iterator, Traversable, Se
 
 /**
  * The Filesystem iterator
- * @link http://php.net/manual/en/class.filesystemiterator.php
+ * @link http://php.net/manual/zh/class.filesystemiterator.php
  */
 class FilesystemIterator extends DirectoryIterator implements SeekableIterator, Traversable, Iterator {
         const CURRENT_MODE_MASK = 240;
@@ -368,7 +368,7 @@ class FilesystemIterator extends DirectoryIterator implements SeekableIterator, 
 
         /**
          * Constructs a new filesystem iterator
-         * @link http://php.net/manual/en/filesystemiterator.construct.php
+         * @link http://php.net/manual/zh/filesystemiterator.construct.php
          * @param $path
          * @param $flags [optional]
          * @since 5.3.0
@@ -377,7 +377,7 @@ class FilesystemIterator extends DirectoryIterator implements SeekableIterator, 
 
         /**
          * Rewinds back to the beginning
-         * @link http://php.net/manual/en/filesystemiterator.rewind.php
+         * @link http://php.net/manual/zh/filesystemiterator.rewind.php
          * @return void 
          * @since 5.3.0
          */
@@ -385,7 +385,7 @@ class FilesystemIterator extends DirectoryIterator implements SeekableIterator, 
 
         /**
          * Move to the next file
-         * @link http://php.net/manual/en/filesystemiterator.next.php
+         * @link http://php.net/manual/zh/filesystemiterator.next.php
          * @return void 
          * @since 5.3.0
          */
@@ -393,7 +393,7 @@ class FilesystemIterator extends DirectoryIterator implements SeekableIterator, 
 
         /**
          * Retrieve the key for the current file
-         * @link http://php.net/manual/en/filesystemiterator.key.php
+         * @link http://php.net/manual/zh/filesystemiterator.key.php
          * @return string the pathname or filename depending on the set flags.
          * See the FilesystemIterator constants.
          * @since 5.3.0
@@ -402,7 +402,7 @@ class FilesystemIterator extends DirectoryIterator implements SeekableIterator, 
 
         /**
          * The current file
-         * @link http://php.net/manual/en/filesystemiterator.current.php
+         * @link http://php.net/manual/zh/filesystemiterator.current.php
          * @return mixed The filename, file information, or $this depending on the set flags.
          * See the FilesystemIterator constants.
          * @since 5.3.0
@@ -411,7 +411,7 @@ class FilesystemIterator extends DirectoryIterator implements SeekableIterator, 
 
         /**
          * Get the handling flags
-         * @link http://php.net/manual/en/filesystemiterator.getflags.php
+         * @link http://php.net/manual/zh/filesystemiterator.getflags.php
          * @return int The integer value of the set flags.
          * @since 5.3.0
          */
@@ -419,7 +419,7 @@ class FilesystemIterator extends DirectoryIterator implements SeekableIterator, 
 
         /**
          * Sets handling flags
-         * @link http://php.net/manual/en/filesystemiterator.setflags.php
+         * @link http://php.net/manual/zh/filesystemiterator.setflags.php
          * @param int $flags [optional] <p>
          * The handling flags to set.
          * See the FilesystemIterator constants.
@@ -433,14 +433,14 @@ class FilesystemIterator extends DirectoryIterator implements SeekableIterator, 
 /**
  * The <b>RecursiveDirectoryIterator</b> provides
  * an interface for iterating recursively over filesystem directories.
- * @link http://php.net/manual/en/class.recursivedirectoryiterator.php
+ * @link http://php.net/manual/zh/class.recursivedirectoryiterator.php
  */
 class RecursiveDirectoryIterator extends FilesystemIterator implements Iterator, Traversable, SeekableIterator, RecursiveIterator {
 
 
         /**
          * Constructs a RecursiveDirectoryIterator
-         * @link http://php.net/manual/en/recursivedirectoryiterator.construct.php
+         * @link http://php.net/manual/zh/recursivedirectoryiterator.construct.php
          * @param $path
          * @param $flags [optional]
          * @since 5.1.2
@@ -449,7 +449,7 @@ class RecursiveDirectoryIterator extends FilesystemIterator implements Iterator,
 
         /**
          * Returns whether current entry is a directory and not '.' or '..'
-         * @link http://php.net/manual/en/recursivedirectoryiterator.haschildren.php
+         * @link http://php.net/manual/zh/recursivedirectoryiterator.haschildren.php
          * @param bool $allow_links [optional] <p>
          * </p>
          * @return bool whether the current entry is a directory, but not '.' or '..'
@@ -459,7 +459,7 @@ class RecursiveDirectoryIterator extends FilesystemIterator implements Iterator,
 
         /**
          * Returns an iterator for the current entry if it is a directory
-         * @link http://php.net/manual/en/recursivedirectoryiterator.getchildren.php
+         * @link http://php.net/manual/zh/recursivedirectoryiterator.getchildren.php
          * @return object An iterator for the current entry, if it is a directory.
          * @since 5.1.0
          */
@@ -467,7 +467,7 @@ class RecursiveDirectoryIterator extends FilesystemIterator implements Iterator,
 
         /**
          * Get sub path
-         * @link http://php.net/manual/en/recursivedirectoryiterator.getsubpath.php
+         * @link http://php.net/manual/zh/recursivedirectoryiterator.getsubpath.php
          * @return string The sub path (sub directory).
          * @since 5.1.0
          */
@@ -475,7 +475,7 @@ class RecursiveDirectoryIterator extends FilesystemIterator implements Iterator,
 
         /**
          * Get sub path and name
-         * @link http://php.net/manual/en/recursivedirectoryiterator.getsubpathname.php
+         * @link http://php.net/manual/zh/recursivedirectoryiterator.getsubpathname.php
          * @return string The sub path (sub directory) and filename.
          * @since 5.1.0
          */
@@ -483,7 +483,7 @@ class RecursiveDirectoryIterator extends FilesystemIterator implements Iterator,
 
         /**
          * Rewinds back to the beginning
-         * @link http://php.net/manual/en/filesystemiterator.rewind.php
+         * @link http://php.net/manual/zh/filesystemiterator.rewind.php
          * @return void 
          * @since 5.3.0
          */
@@ -491,7 +491,7 @@ class RecursiveDirectoryIterator extends FilesystemIterator implements Iterator,
 
         /**
          * Move to the next file
-         * @link http://php.net/manual/en/filesystemiterator.next.php
+         * @link http://php.net/manual/zh/filesystemiterator.next.php
          * @return void 
          * @since 5.3.0
          */
@@ -499,7 +499,7 @@ class RecursiveDirectoryIterator extends FilesystemIterator implements Iterator,
 
         /**
          * Retrieve the key for the current file
-         * @link http://php.net/manual/en/filesystemiterator.key.php
+         * @link http://php.net/manual/zh/filesystemiterator.key.php
          * @return string the pathname or filename depending on the set flags.
          * See the FilesystemIterator constants.
          * @since 5.3.0
@@ -508,7 +508,7 @@ class RecursiveDirectoryIterator extends FilesystemIterator implements Iterator,
 
         /**
          * The current file
-         * @link http://php.net/manual/en/filesystemiterator.current.php
+         * @link http://php.net/manual/zh/filesystemiterator.current.php
          * @return mixed The filename, file information, or $this depending on the set flags.
          * See the FilesystemIterator constants.
          * @since 5.3.0
@@ -520,13 +520,13 @@ class RecursiveDirectoryIterator extends FilesystemIterator implements Iterator,
 /**
  * Iterates through a file system in a similar fashion to 
  * <b>glob</b>.
- * @link http://php.net/manual/en/class.globiterator.php
+ * @link http://php.net/manual/zh/class.globiterator.php
  */
 class GlobIterator extends FilesystemIterator implements Iterator, Traversable, SeekableIterator, Countable {
 
         /**
          * Construct a directory using glob
-         * @link http://php.net/manual/en/globiterator.construct.php
+         * @link http://php.net/manual/zh/globiterator.construct.php
          * @param $path
          * @param $flags [optional]
          * @since 5.3.0
@@ -535,7 +535,7 @@ class GlobIterator extends FilesystemIterator implements Iterator, Traversable, 
 
         /**
          * Get the number of directories and files
-         * @link http://php.net/manual/en/globiterator.count.php
+         * @link http://php.net/manual/zh/globiterator.count.php
 	 * @return int The number of returned directories and files, as an
          * integer.
          * @since 5.3.0
@@ -545,7 +545,7 @@ class GlobIterator extends FilesystemIterator implements Iterator, Traversable, 
 
 /**
  * The SplFileObject class offers an object oriented interface for a file.
- * @link http://php.net/manual/en/class.splfileobject.php
+ * @link http://php.net/manual/zh/class.splfileobject.php
  */
 class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversable, Iterator, SeekableIterator {
         const DROP_NEW_LINE = 1;
@@ -556,7 +556,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
          * Construct a new file object.
-         * @link http://php.net/manual/en/splfileobject.construct.php
+         * @link http://php.net/manual/zh/splfileobject.construct.php
          * @param $file_name
          * @param $open_mode [optional]
          * @param $use_include_path [optional]
@@ -567,7 +567,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
          * Rewind the file to the first line
-         * @link http://php.net/manual/en/splfileobject.rewind.php
+         * @link http://php.net/manual/zh/splfileobject.rewind.php
          * @return void 
          * @since 5.1.0
          */
@@ -575,7 +575,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
          * Reached end of file
-         * @link http://php.net/manual/en/splfileobject.eof.php
+         * @link http://php.net/manual/zh/splfileobject.eof.php
 	 * @return bool true if file is at EOF, false otherwise.
          * @since 5.1.0
          */
@@ -583,7 +583,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
          * Not at EOF
-         * @link http://php.net/manual/en/splfileobject.valid.php
+         * @link http://php.net/manual/zh/splfileobject.valid.php
          * @return bool true if not reached EOF, false otherwise.
          * @since 5.1.0
          */
@@ -591,7 +591,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
          * Gets line from file
-         * @link http://php.net/manual/en/splfileobject.fgets.php
+         * @link http://php.net/manual/zh/splfileobject.fgets.php
          * @return string a string containing the next line from the file, or false on error.
          * @since 5.1.0
          */
@@ -599,7 +599,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
          * Read from file
-         * @link http://php.net/manual/en/splfileobject.fread.php
+         * @link http://php.net/manual/zh/splfileobject.fread.php
          * @param int $length <p>
          * The number of bytes to read.
          * </p>
@@ -610,7 +610,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
          * Gets line from file and parse as CSV fields
-         * @link http://php.net/manual/en/splfileobject.fgetcsv.php
+         * @link http://php.net/manual/zh/splfileobject.fgetcsv.php
          * @param string $delimiter [optional] <p>
 	 * The field delimiter (one character only). Defaults as a comma or the value set using <b>SplFileObject::setCsvControl</b>.
          * </p>
@@ -632,7 +632,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
     /**
      * Write a field array as a CSV line
-     * @link http://php.net/manual/en/splfileobject.fputcsv.php
+     * @link http://php.net/manual/zh/splfileobject.fputcsv.php
      * @param array $fields <p>
      * An array of values
      * @param string $delimiter [optional] <p>
@@ -650,7 +650,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
          * Set the delimiter and enclosure character for CSV
-         * @link http://php.net/manual/en/splfileobject.setcsvcontrol.php
+         * @link http://php.net/manual/zh/splfileobject.setcsvcontrol.php
          * @param string $delimiter [optional] <p>
          * The field delimiter (one character only).
          * </p>
@@ -667,7 +667,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
          * Get the delimiter and enclosure character for CSV
-         * @link http://php.net/manual/en/splfileobject.getcsvcontrol.php
+         * @link http://php.net/manual/zh/splfileobject.getcsvcontrol.php
          * @return array an indexed array containing the delimiter and enclosure character.
          * @since 5.2.0
          */
@@ -675,7 +675,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
          * Portable file locking
-         * @link http://php.net/manual/en/splfileobject.flock.php
+         * @link http://php.net/manual/zh/splfileobject.flock.php
          * @param int $operation <p>
 	 * <i>operation</i> is one of the following:
 	 * <b>LOCK_SH</b> to acquire a shared lock (reader).
@@ -689,7 +689,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
          * Flushes the output to the file
-         * @link http://php.net/manual/en/splfileobject.fflush.php
+         * @link http://php.net/manual/zh/splfileobject.fflush.php
 	 * @return bool true on success or false on failure.
          * @since 5.1.0
          */
@@ -697,7 +697,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
          * Return current file position
-         * @link http://php.net/manual/en/splfileobject.ftell.php
+         * @link http://php.net/manual/zh/splfileobject.ftell.php
          * @return int the position of the file pointer as an integer, or false on error.
          * @since 5.1.0
          */
@@ -705,7 +705,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
          * Seek to a position
-         * @link http://php.net/manual/en/splfileobject.fseek.php
+         * @link http://php.net/manual/zh/splfileobject.fseek.php
          * @param int $offset <p>
          * The offset. A negative value can be used to move backwards through the file which
 	 * is useful when SEEK_END is used as the <i>whence</i> value.
@@ -727,7 +727,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
          * Gets character from file
-         * @link http://php.net/manual/en/splfileobject.fgetc.php
+         * @link http://php.net/manual/zh/splfileobject.fgetc.php
          * @return string a string containing a single character read from the file or false on EOF.
          * @since 5.1.0
          */
@@ -735,7 +735,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
          * Output all remaining data on a file pointer
-         * @link http://php.net/manual/en/splfileobject.fpassthru.php
+         * @link http://php.net/manual/zh/splfileobject.fpassthru.php
 	 * @return int the number of characters read from <i>handle</i>
          * and passed through to the output.
          * @since 5.1.0
@@ -744,7 +744,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
          * Gets line from file and strip HTML tags
-         * @link http://php.net/manual/en/splfileobject.fgetss.php
+         * @link http://php.net/manual/zh/splfileobject.fgetss.php
          * @param string $allowable_tags [optional] <p>
          * You can use the optional third parameter to specify tags which should
          * not be stripped.
@@ -757,7 +757,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
          * Parses input from file according to a format
-         * @link http://php.net/manual/en/splfileobject.fscanf.php
+         * @link http://php.net/manual/zh/splfileobject.fscanf.php
          * @param string $format <p>
 	 * The specified format as described in the <b>sprintf</b> documentation.
          * </p>
@@ -774,7 +774,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
          * Write to file
-         * @link http://php.net/manual/en/splfileobject.fwrite.php
+         * @link http://php.net/manual/zh/splfileobject.fwrite.php
          * @param string $str <p>
          * The string to be written to the file.
          * </p>
@@ -791,7 +791,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
          * Gets information about the file
-         * @link http://php.net/manual/en/splfileobject.fstat.php
+         * @link http://php.net/manual/zh/splfileobject.fstat.php
          * @return array an array with the statistics of the file; the format of the array
 	 * is described in detail on the <b>stat</b> manual page.
          * @since 5.1.0
@@ -800,7 +800,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
          * Truncates the file to a given length
-         * @link http://php.net/manual/en/splfileobject.ftruncate.php
+         * @link http://php.net/manual/zh/splfileobject.ftruncate.php
          * @param int $size <p>
          * The size to truncate to.
          * </p>
@@ -817,7 +817,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
          * Retrieve current line of file
-         * @link http://php.net/manual/en/splfileobject.current.php
+         * @link http://php.net/manual/zh/splfileobject.current.php
 	 * @return string|array Retrieves the current line of the file. If the <b>SplFileObject::READ_CSV</b> flag is set, this method returns an array containing the current line parsed as CSV data.
          * @since 5.1.0
          */
@@ -825,7 +825,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
          * Get line number
-         * @link http://php.net/manual/en/splfileobject.key.php
+         * @link http://php.net/manual/zh/splfileobject.key.php
          * @return int the current line number.
          * @since 5.1.0
          */
@@ -833,7 +833,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
          * Read next line
-         * @link http://php.net/manual/en/splfileobject.next.php
+         * @link http://php.net/manual/zh/splfileobject.next.php
          * @return void 
          * @since 5.1.0
          */
@@ -841,7 +841,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
          * Sets flags for the SplFileObject
-         * @link http://php.net/manual/en/splfileobject.setflags.php
+         * @link http://php.net/manual/zh/splfileobject.setflags.php
          * @param int $flags <p>
          * Bit mask of the flags to set. See 
          * SplFileObject constants 
@@ -854,7 +854,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
          * Gets flags for the SplFileObject
-         * @link http://php.net/manual/en/splfileobject.getflags.php
+         * @link http://php.net/manual/zh/splfileobject.getflags.php
          * @return int an integer representing the flags.
          * @since 5.1.0
          */
@@ -862,7 +862,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
          * Set maximum line length
-         * @link http://php.net/manual/en/splfileobject.setmaxlinelen.php
+         * @link http://php.net/manual/zh/splfileobject.setmaxlinelen.php
          * @param int $max_len <p>
          * The maximum length of a line.
          * </p>
@@ -873,7 +873,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
          * Get maximum line length
-         * @link http://php.net/manual/en/splfileobject.getmaxlinelen.php
+         * @link http://php.net/manual/zh/splfileobject.getmaxlinelen.php
          * @return int the maximum line length if one has been set with
 	 * <b>SplFileObject::setMaxLineLen</b>, default is 0.
          * @since 5.1.0
@@ -882,7 +882,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
          * SplFileObject does not have children
-         * @link http://php.net/manual/en/splfileobject.haschildren.php
+         * @link http://php.net/manual/zh/splfileobject.haschildren.php
          * @return bool false
          * @since 5.1.2
          */
@@ -890,7 +890,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
          * No purpose
-         * @link http://php.net/manual/en/splfileobject.getchildren.php
+         * @link http://php.net/manual/zh/splfileobject.getchildren.php
          * @return null An SplFileObject does not have children so this method returns NULL.
          * @since 5.1.0
          */
@@ -898,7 +898,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
          * Seek to specified line
-         * @link http://php.net/manual/en/splfileobject.seek.php
+         * @link http://php.net/manual/zh/splfileobject.seek.php
          * @param int $line_pos <p>
          * The zero-based line number to seek to.
          * </p>
@@ -909,7 +909,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
 	     * Alias of <b>SplFileObject::fgets</b>
-         * @link http://php.net/manual/en/splfileobject.getcurrentline.php
+         * @link http://php.net/manual/zh/splfileobject.getcurrentline.php
          * @return string Returns a string containing the next line from the file, or FALSE on error.
          * @since 5.1.2
          */
@@ -917,7 +917,7 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
         /**
 	 * Alias of <b>SplFileObject::current</b>
-         * @link http://php.net/manual/en/splfileobject.tostring.php
+         * @link http://php.net/manual/zh/splfileobject.tostring.php
          * @since 5.1.0
          */
         public function __toString () {}
@@ -926,14 +926,14 @@ class SplFileObject extends SplFileInfo implements RecursiveIterator, Traversabl
 
 /**
  * The SplTempFileObject class offers an object oriented interface for a temporary file.
- * @link http://php.net/manual/en/class.spltempfileobject.php
+ * @link http://php.net/manual/zh/class.spltempfileobject.php
  */
 class SplTempFileObject extends SplFileObject implements SeekableIterator, Iterator, Traversable, RecursiveIterator {
 
 
         /**
          * Construct a new temporary file object
-         * @link http://php.net/manual/en/spltempfileobject.construct.php
+         * @link http://php.net/manual/zh/spltempfileobject.construct.php
          * @param $max_memory [optional]
          * @since 5.1.2
          */
@@ -942,7 +942,7 @@ class SplTempFileObject extends SplFileObject implements SeekableIterator, Itera
 
 /**
  * The SplDoublyLinkedList class provides the main functionalities of a doubly linked list.
- * @link http://php.net/manual/en/class.spldoublylinkedlist.php
+ * @link http://php.net/manual/zh/class.spldoublylinkedlist.php
  */
 class SplDoublyLinkedList implements Iterator, Traversable, Countable, ArrayAccess {
         const IT_MODE_LIFO = 2;
@@ -963,7 +963,7 @@ class SplDoublyLinkedList implements Iterator, Traversable, Countable, ArrayAcce
 
         /**
          * Pops a node from the end of the doubly linked list
-         * @link http://php.net/manual/en/spldoublylinkedlist.pop.php
+         * @link http://php.net/manual/zh/spldoublylinkedlist.pop.php
          * @return mixed The value of the popped node.
          * @since 5.3.0
          */
@@ -971,7 +971,7 @@ class SplDoublyLinkedList implements Iterator, Traversable, Countable, ArrayAcce
 
         /**
          * Shifts a node from the beginning of the doubly linked list
-         * @link http://php.net/manual/en/spldoublylinkedlist.shift.php
+         * @link http://php.net/manual/zh/spldoublylinkedlist.shift.php
          * @return mixed The value of the shifted node.
          * @since 5.3.0
          */
@@ -979,7 +979,7 @@ class SplDoublyLinkedList implements Iterator, Traversable, Countable, ArrayAcce
 
         /**
          * Pushes an element at the end of the doubly linked list
-         * @link http://php.net/manual/en/spldoublylinkedlist.push.php
+         * @link http://php.net/manual/zh/spldoublylinkedlist.push.php
          * @param mixed $value <p>
          * The value to push.
          * </p>
@@ -990,7 +990,7 @@ class SplDoublyLinkedList implements Iterator, Traversable, Countable, ArrayAcce
 
         /**
          * Prepends the doubly linked list with an element
-         * @link http://php.net/manual/en/spldoublylinkedlist.unshift.php
+         * @link http://php.net/manual/zh/spldoublylinkedlist.unshift.php
          * @param mixed $value <p>
          * The value to unshift.
          * </p>
@@ -1001,7 +1001,7 @@ class SplDoublyLinkedList implements Iterator, Traversable, Countable, ArrayAcce
 
         /**
          * Peeks at the node from the end of the doubly linked list
-         * @link http://php.net/manual/en/spldoublylinkedlist.top.php
+         * @link http://php.net/manual/zh/spldoublylinkedlist.top.php
          * @return mixed The value of the last node.
          * @since 5.3.0
          */
@@ -1009,7 +1009,7 @@ class SplDoublyLinkedList implements Iterator, Traversable, Countable, ArrayAcce
 
         /**
          * Peeks at the node from the beginning of the doubly linked list
-         * @link http://php.net/manual/en/spldoublylinkedlist.bottom.php
+         * @link http://php.net/manual/zh/spldoublylinkedlist.bottom.php
          * @return mixed The value of the first node.
          * @since 5.3.0
          */
@@ -1017,7 +1017,7 @@ class SplDoublyLinkedList implements Iterator, Traversable, Countable, ArrayAcce
 
         /**
          * Counts the number of elements in the doubly linked list.
-         * @link http://php.net/manual/en/spldoublylinkedlist.count.php
+         * @link http://php.net/manual/zh/spldoublylinkedlist.count.php
          * @return int the number of elements in the doubly linked list.
          * @since 5.3.0
          */
@@ -1025,7 +1025,7 @@ class SplDoublyLinkedList implements Iterator, Traversable, Countable, ArrayAcce
 
         /**
          * Checks whether the doubly linked list is empty.
-         * @link http://php.net/manual/en/spldoublylinkedlist.isempty.php
+         * @link http://php.net/manual/zh/spldoublylinkedlist.isempty.php
          * @return bool whether the doubly linked list is empty.
          * @since 5.3.0
          */
@@ -1033,7 +1033,7 @@ class SplDoublyLinkedList implements Iterator, Traversable, Countable, ArrayAcce
 
         /**
          * Sets the mode of iteration
-         * @link http://php.net/manual/en/spldoublylinkedlist.setiteratormode.php
+         * @link http://php.net/manual/zh/spldoublylinkedlist.setiteratormode.php
          * @param int $mode <p>
          * There are two orthogonal sets of modes that can be set:
          * </p>
@@ -1046,7 +1046,7 @@ class SplDoublyLinkedList implements Iterator, Traversable, Countable, ArrayAcce
 
         /**
          * Returns the mode of iteration
-         * @link http://php.net/manual/en/spldoublylinkedlist.getiteratormode.php
+         * @link http://php.net/manual/zh/spldoublylinkedlist.getiteratormode.php
          * @return int the different modes and flags that affect the iteration.
          * @since 5.3.0
          */
@@ -1054,7 +1054,7 @@ class SplDoublyLinkedList implements Iterator, Traversable, Countable, ArrayAcce
 
         /**
          * Returns whether the requested $index exists
-         * @link http://php.net/manual/en/spldoublylinkedlist.offsetexists.php
+         * @link http://php.net/manual/zh/spldoublylinkedlist.offsetexists.php
          * @param mixed $index <p>
          * The index being checked.
          * </p>
@@ -1065,7 +1065,7 @@ class SplDoublyLinkedList implements Iterator, Traversable, Countable, ArrayAcce
 
         /**
          * Returns the value at the specified $index
-         * @link http://php.net/manual/en/spldoublylinkedlist.offsetget.php
+         * @link http://php.net/manual/zh/spldoublylinkedlist.offsetget.php
          * @param mixed $index <p>
          * The index with the value.
          * </p>
@@ -1076,7 +1076,7 @@ class SplDoublyLinkedList implements Iterator, Traversable, Countable, ArrayAcce
 
         /**
          * Sets the value at the specified $index to $newval
-         * @link http://php.net/manual/en/spldoublylinkedlist.offsetset.php
+         * @link http://php.net/manual/zh/spldoublylinkedlist.offsetset.php
          * @param mixed $index <p>
          * The index being set.
          * </p>
@@ -1090,7 +1090,7 @@ class SplDoublyLinkedList implements Iterator, Traversable, Countable, ArrayAcce
 
         /**
          * Unsets the value at the specified $index
-         * @link http://php.net/manual/en/spldoublylinkedlist.offsetunset.php
+         * @link http://php.net/manual/zh/spldoublylinkedlist.offsetunset.php
          * @param mixed $index <p>
          * The index being unset.
          * </p>
@@ -1101,7 +1101,7 @@ class SplDoublyLinkedList implements Iterator, Traversable, Countable, ArrayAcce
 
         /**
          * Rewind iterator back to the start
-         * @link http://php.net/manual/en/spldoublylinkedlist.rewind.php
+         * @link http://php.net/manual/zh/spldoublylinkedlist.rewind.php
          * @return void 
          * @since 5.3.0
          */
@@ -1109,7 +1109,7 @@ class SplDoublyLinkedList implements Iterator, Traversable, Countable, ArrayAcce
 
         /**
          * Return current array entry
-         * @link http://php.net/manual/en/spldoublylinkedlist.current.php
+         * @link http://php.net/manual/zh/spldoublylinkedlist.current.php
          * @return mixed The current node value.
          * @since 5.3.0
          */
@@ -1117,7 +1117,7 @@ class SplDoublyLinkedList implements Iterator, Traversable, Countable, ArrayAcce
 
         /**
          * Return current node index
-         * @link http://php.net/manual/en/spldoublylinkedlist.key.php
+         * @link http://php.net/manual/zh/spldoublylinkedlist.key.php
          * @return mixed The current node index.
          * @since 5.3.0
          */
@@ -1125,7 +1125,7 @@ class SplDoublyLinkedList implements Iterator, Traversable, Countable, ArrayAcce
 
         /**
          * Move to next entry
-         * @link http://php.net/manual/en/spldoublylinkedlist.next.php
+         * @link http://php.net/manual/zh/spldoublylinkedlist.next.php
          * @return void 
          * @since 5.3.0
          */
@@ -1133,7 +1133,7 @@ class SplDoublyLinkedList implements Iterator, Traversable, Countable, ArrayAcce
 
         /**
          * Move to previous entry
-         * @link http://php.net/manual/en/spldoublylinkedlist.prev.php
+         * @link http://php.net/manual/zh/spldoublylinkedlist.prev.php
          * @return void 
          * @since 5.3.0
          */
@@ -1141,7 +1141,7 @@ class SplDoublyLinkedList implements Iterator, Traversable, Countable, ArrayAcce
 
         /**
          * Check whether the doubly linked list contains more nodes
-         * @link http://php.net/manual/en/spldoublylinkedlist.valid.php
+         * @link http://php.net/manual/zh/spldoublylinkedlist.valid.php
          * @return bool true if the doubly linked list contains any more nodes, false otherwise.
          * @since 5.3.0
          */
@@ -1168,14 +1168,14 @@ class SplDoublyLinkedList implements Iterator, Traversable, Countable, ArrayAcce
 
 /**
  * The SplQueue class provides the main functionalities of a queue implemented using a doubly linked list.
- * @link http://php.net/manual/en/class.splqueue.php
+ * @link http://php.net/manual/zh/class.splqueue.php
  */
 class SplQueue extends SplDoublyLinkedList implements ArrayAccess, Countable, Traversable, Iterator {
 
 
         /**
          * Adds an element to the queue.
-         * @link http://php.net/manual/en/splqueue.enqueue.php
+         * @link http://php.net/manual/zh/splqueue.enqueue.php
          * @param mixed $value <p>
          * The value to enqueue.
          * </p>
@@ -1186,7 +1186,7 @@ class SplQueue extends SplDoublyLinkedList implements ArrayAccess, Countable, Tr
 
         /**
          * Dequeues a node from the queue
-         * @link http://php.net/manual/en/splqueue.dequeue.php
+         * @link http://php.net/manual/zh/splqueue.dequeue.php
          * @return mixed The value of the dequeued node.
          * @since 5.3.0
          */
@@ -1194,7 +1194,7 @@ class SplQueue extends SplDoublyLinkedList implements ArrayAccess, Countable, Tr
 
     /**
      * Sets the mode of iteration
-     * @link http://php.net/manual/en/spldoublylinkedlist.setiteratormode.php
+     * @link http://php.net/manual/zh/spldoublylinkedlist.setiteratormode.php
      * @param int $mode <p>
      * There are two orthogonal sets of modes that can be set:
      * </p>
@@ -1208,13 +1208,13 @@ class SplQueue extends SplDoublyLinkedList implements ArrayAccess, Countable, Tr
 }
 /**
  * The SplStack class provides the main functionalities of a stack implemented using a doubly linked list.
- * @link http://php.net/manual/en/class.splstack.php
+ * @link http://php.net/manual/zh/class.splstack.php
  */
 class SplStack extends SplDoublyLinkedList implements ArrayAccess, Countable, Traversable, Iterator {
 
     /**
      * Sets the mode of iteration
-     * @link http://php.net/manual/en/spldoublylinkedlist.setiteratormode.php
+     * @link http://php.net/manual/zh/spldoublylinkedlist.setiteratormode.php
      * @param int $mode <p>
      * There are two orthogonal sets of modes that can be set:
      * </p>
@@ -1228,13 +1228,13 @@ class SplStack extends SplDoublyLinkedList implements ArrayAccess, Countable, Tr
 
 /**
  * The SplHeap class provides the main functionalities of an Heap.
- * @link http://php.net/manual/en/class.splheap.php
+ * @link http://php.net/manual/zh/class.splheap.php
  */
 abstract class SplHeap implements Iterator, Traversable, Countable {
 
         /**
          * Extracts a node from top of the heap and sift up.
-         * @link http://php.net/manual/en/splheap.extract.php
+         * @link http://php.net/manual/zh/splheap.extract.php
          * @return mixed The value of the extracted node.
          * @since 5.3.0
          */
@@ -1242,7 +1242,7 @@ abstract class SplHeap implements Iterator, Traversable, Countable {
 
         /**
          * Inserts an element in the heap by sifting it up.
-         * @link http://php.net/manual/en/splheap.insert.php
+         * @link http://php.net/manual/zh/splheap.insert.php
          * @param mixed $value <p>
          * The value to insert.
          * </p>
@@ -1253,7 +1253,7 @@ abstract class SplHeap implements Iterator, Traversable, Countable {
 
         /**
 	 * Peeks at the node from the top of the heap
-         * @link http://php.net/manual/en/splheap.top.php
+         * @link http://php.net/manual/zh/splheap.top.php
          * @return mixed The value of the node on the top.
          * @since 5.3.0
          */
@@ -1261,7 +1261,7 @@ abstract class SplHeap implements Iterator, Traversable, Countable {
 
         /**
          * Counts the number of elements in the heap.
-         * @link http://php.net/manual/en/splheap.count.php
+         * @link http://php.net/manual/zh/splheap.count.php
          * @return int the number of elements in the heap.
          * @since 5.3.0
          */
@@ -1269,7 +1269,7 @@ abstract class SplHeap implements Iterator, Traversable, Countable {
 
         /**
          * Checks whether the heap is empty.
-         * @link http://php.net/manual/en/splheap.isempty.php
+         * @link http://php.net/manual/zh/splheap.isempty.php
          * @return bool whether the heap is empty.
          * @since 5.3.0
          */
@@ -1277,7 +1277,7 @@ abstract class SplHeap implements Iterator, Traversable, Countable {
 
         /**
          * Rewind iterator back to the start (no-op)
-         * @link http://php.net/manual/en/splheap.rewind.php
+         * @link http://php.net/manual/zh/splheap.rewind.php
          * @return void 
          * @since 5.3.0
          */
@@ -1285,7 +1285,7 @@ abstract class SplHeap implements Iterator, Traversable, Countable {
 
         /**
          * Return current node pointed by the iterator
-         * @link http://php.net/manual/en/splheap.current.php
+         * @link http://php.net/manual/zh/splheap.current.php
          * @return mixed The current node value.
          * @since 5.3.0
          */
@@ -1293,7 +1293,7 @@ abstract class SplHeap implements Iterator, Traversable, Countable {
 
         /**
          * Return current node index
-         * @link http://php.net/manual/en/splheap.key.php
+         * @link http://php.net/manual/zh/splheap.key.php
          * @return mixed The current node index.
          * @since 5.3.0
          */
@@ -1301,7 +1301,7 @@ abstract class SplHeap implements Iterator, Traversable, Countable {
 
         /**
          * Move to the next node
-         * @link http://php.net/manual/en/splheap.next.php
+         * @link http://php.net/manual/zh/splheap.next.php
          * @return void 
          * @since 5.3.0
          */
@@ -1309,7 +1309,7 @@ abstract class SplHeap implements Iterator, Traversable, Countable {
 
         /**
          * Check whether the heap contains more nodes
-         * @link http://php.net/manual/en/splheap.valid.php
+         * @link http://php.net/manual/zh/splheap.valid.php
          * @return bool true if the heap contains any more nodes, false otherwise.
          * @since 5.3.0
          */
@@ -1317,7 +1317,7 @@ abstract class SplHeap implements Iterator, Traversable, Countable {
 
         /**
          * Recover from the corrupted state and allow further actions on the heap.
-         * @link http://php.net/manual/en/splheap.recoverfromcorruption.php
+         * @link http://php.net/manual/zh/splheap.recoverfromcorruption.php
          * @return void 
          * @since 5.3.0
          */
@@ -1325,7 +1325,7 @@ abstract class SplHeap implements Iterator, Traversable, Countable {
 
         /**
          * Compare elements in order to place them correctly in the heap while sifting up.
-         * @link http://php.net/manual/en/splheap.compare.php
+         * @link http://php.net/manual/zh/splheap.compare.php
          * @param mixed $value1 <p>
          * The value of the first node being compared.
          * </p>
@@ -1344,13 +1344,13 @@ abstract class SplHeap implements Iterator, Traversable, Countable {
 
 /**
  * The SplMinHeap class provides the main functionalities of a heap, keeping the minimum on the top.
- * @link http://php.net/manual/en/class.splminheap.php
+ * @link http://php.net/manual/zh/class.splminheap.php
  */
 class SplMinHeap extends SplHeap implements Countable, Traversable, Iterator {
 
         /**
          * Compare elements in order to place them correctly in the heap while sifting up.
-         * @link http://php.net/manual/en/splminheap.compare.php
+         * @link http://php.net/manual/zh/splminheap.compare.php
          * @param mixed $value1 <p>
          * The value of the first node being compared.
          * </p>
@@ -1367,7 +1367,7 @@ class SplMinHeap extends SplHeap implements Countable, Traversable, Iterator {
 
         /**
          * Extracts a node from top of the heap and sift up.
-         * @link http://php.net/manual/en/splheap.extract.php
+         * @link http://php.net/manual/zh/splheap.extract.php
          * @return mixed The value of the extracted node.
          * @since 5.3.0
          */
@@ -1375,7 +1375,7 @@ class SplMinHeap extends SplHeap implements Countable, Traversable, Iterator {
 
         /**
          * Inserts an element in the heap by sifting it up.
-         * @link http://php.net/manual/en/splheap.insert.php
+         * @link http://php.net/manual/zh/splheap.insert.php
          * @param mixed $value <p>
          * The value to insert.
          * </p>
@@ -1386,7 +1386,7 @@ class SplMinHeap extends SplHeap implements Countable, Traversable, Iterator {
 
         /**
 	 * Peeks at the node from the top of the heap
-         * @link http://php.net/manual/en/splheap.top.php
+         * @link http://php.net/manual/zh/splheap.top.php
          * @return mixed The value of the node on the top.
          * @since 5.3.0
          */
@@ -1394,7 +1394,7 @@ class SplMinHeap extends SplHeap implements Countable, Traversable, Iterator {
 
         /**
          * Counts the number of elements in the heap.
-         * @link http://php.net/manual/en/splheap.count.php
+         * @link http://php.net/manual/zh/splheap.count.php
          * @return int the number of elements in the heap.
          * @since 5.3.0
          */
@@ -1402,7 +1402,7 @@ class SplMinHeap extends SplHeap implements Countable, Traversable, Iterator {
 
         /**
          * Checks whether the heap is empty.
-         * @link http://php.net/manual/en/splheap.isempty.php
+         * @link http://php.net/manual/zh/splheap.isempty.php
          * @return bool whether the heap is empty.
          * @since 5.3.0
          */
@@ -1410,7 +1410,7 @@ class SplMinHeap extends SplHeap implements Countable, Traversable, Iterator {
 
         /**
          * Rewind iterator back to the start (no-op)
-         * @link http://php.net/manual/en/splheap.rewind.php
+         * @link http://php.net/manual/zh/splheap.rewind.php
          * @return void 
          * @since 5.3.0
          */
@@ -1418,7 +1418,7 @@ class SplMinHeap extends SplHeap implements Countable, Traversable, Iterator {
 
         /**
          * Return current node pointed by the iterator
-         * @link http://php.net/manual/en/splheap.current.php
+         * @link http://php.net/manual/zh/splheap.current.php
          * @return mixed The current node value.
          * @since 5.3.0
          */
@@ -1426,7 +1426,7 @@ class SplMinHeap extends SplHeap implements Countable, Traversable, Iterator {
 
         /**
          * Return current node index
-         * @link http://php.net/manual/en/splheap.key.php
+         * @link http://php.net/manual/zh/splheap.key.php
          * @return mixed The current node index.
          * @since 5.3.0
          */
@@ -1434,7 +1434,7 @@ class SplMinHeap extends SplHeap implements Countable, Traversable, Iterator {
 
         /**
          * Move to the next node
-         * @link http://php.net/manual/en/splheap.next.php
+         * @link http://php.net/manual/zh/splheap.next.php
          * @return void 
          * @since 5.3.0
          */
@@ -1442,7 +1442,7 @@ class SplMinHeap extends SplHeap implements Countable, Traversable, Iterator {
 
         /**
          * Check whether the heap contains more nodes
-         * @link http://php.net/manual/en/splheap.valid.php
+         * @link http://php.net/manual/zh/splheap.valid.php
          * @return bool true if the heap contains any more nodes, false otherwise.
          * @since 5.3.0
          */
@@ -1450,7 +1450,7 @@ class SplMinHeap extends SplHeap implements Countable, Traversable, Iterator {
 
         /**
          * Recover from the corrupted state and allow further actions on the heap.
-         * @link http://php.net/manual/en/splheap.recoverfromcorruption.php
+         * @link http://php.net/manual/zh/splheap.recoverfromcorruption.php
          * @return void 
          * @since 5.3.0
          */
@@ -1460,13 +1460,13 @@ class SplMinHeap extends SplHeap implements Countable, Traversable, Iterator {
 
 /**
  * The SplMaxHeap class provides the main functionalities of a heap, keeping the maximum on the top.
- * @link http://php.net/manual/en/class.splmaxheap.php
+ * @link http://php.net/manual/zh/class.splmaxheap.php
  */
 class SplMaxHeap extends SplHeap implements Countable, Traversable, Iterator {
 
     /**
      * Compare elements in order to place them correctly in the heap while sifting up.
-     * @link http://php.net/manual/en/splmaxheap.compare.php
+     * @link http://php.net/manual/zh/splmaxheap.compare.php
      * @param mixed $value1 <p>
      * The value of the first node being compared.
      * </p>
@@ -1485,7 +1485,7 @@ class SplMaxHeap extends SplHeap implements Countable, Traversable, Iterator {
 /**
  * The SplPriorityQueue class provides the main functionalities of an 
  * prioritized queue, implemented using a heap.
- * @link http://php.net/manual/en/class.splpriorityqueue.php
+ * @link http://php.net/manual/zh/class.splpriorityqueue.php
  */
 class SplPriorityQueue implements Iterator, Traversable, Countable {
         const EXTR_BOTH = 3;
@@ -1495,7 +1495,7 @@ class SplPriorityQueue implements Iterator, Traversable, Countable {
 
         /**
          * Compare priorities in order to place elements correctly in the heap while sifting up.
-         * @link http://php.net/manual/en/splpriorityqueue.compare.php
+         * @link http://php.net/manual/zh/splpriorityqueue.compare.php
          * @param mixed $priority1 <p>
          * The priority of the first node being compared.
          * </p>
@@ -1512,7 +1512,7 @@ class SplPriorityQueue implements Iterator, Traversable, Countable {
 
         /**
          * Inserts an element in the queue by sifting it up.
-         * @link http://php.net/manual/en/splpriorityqueue.insert.php
+         * @link http://php.net/manual/zh/splpriorityqueue.insert.php
          * @param mixed $value <p>
          * The value to insert.
          * </p>
@@ -1526,7 +1526,7 @@ class SplPriorityQueue implements Iterator, Traversable, Countable {
 
         /**
          * Sets the mode of extraction
-         * @link http://php.net/manual/en/splpriorityqueue.setextractflags.php
+         * @link http://php.net/manual/zh/splpriorityqueue.setextractflags.php
          * @param int $flags <p>
 	 * Defines what is extracted by <b>SplPriorityQueue::current</b>,
 	 * <b>SplPriorityQueue::top</b> and
@@ -1540,7 +1540,7 @@ class SplPriorityQueue implements Iterator, Traversable, Countable {
 
         /**
 	 * Peeks at the node from the top of the queue
-         * @link http://php.net/manual/en/splpriorityqueue.top.php
+         * @link http://php.net/manual/zh/splpriorityqueue.top.php
          * @return mixed The value or priority (or both) of the top node, depending on the extract flag.
          * @since 5.3.0
          */
@@ -1548,7 +1548,7 @@ class SplPriorityQueue implements Iterator, Traversable, Countable {
 
         /**
          * Extracts a node from top of the heap and sift up.
-         * @link http://php.net/manual/en/splpriorityqueue.extract.php
+         * @link http://php.net/manual/zh/splpriorityqueue.extract.php
          * @return mixed The value or priority (or both) of the extracted node, depending on the extract flag.
          * @since 5.3.0
          */
@@ -1556,7 +1556,7 @@ class SplPriorityQueue implements Iterator, Traversable, Countable {
 
         /**
          * Counts the number of elements in the queue.
-         * @link http://php.net/manual/en/splpriorityqueue.count.php
+         * @link http://php.net/manual/zh/splpriorityqueue.count.php
          * @return int the number of elements in the queue.
          * @since 5.3.0
          */
@@ -1564,7 +1564,7 @@ class SplPriorityQueue implements Iterator, Traversable, Countable {
 
         /**
          * Checks whether the queue is empty.
-         * @link http://php.net/manual/en/splpriorityqueue.isempty.php
+         * @link http://php.net/manual/zh/splpriorityqueue.isempty.php
          * @return bool whether the queue is empty.
          * @since 5.3.0
          */
@@ -1572,7 +1572,7 @@ class SplPriorityQueue implements Iterator, Traversable, Countable {
 
         /**
          * Rewind iterator back to the start (no-op)
-         * @link http://php.net/manual/en/splpriorityqueue.rewind.php
+         * @link http://php.net/manual/zh/splpriorityqueue.rewind.php
          * @return void 
          * @since 5.3.0
          */
@@ -1580,7 +1580,7 @@ class SplPriorityQueue implements Iterator, Traversable, Countable {
 
         /**
          * Return current node pointed by the iterator
-         * @link http://php.net/manual/en/splpriorityqueue.current.php
+         * @link http://php.net/manual/zh/splpriorityqueue.current.php
          * @return mixed The value or priority (or both) of the current node, depending on the extract flag.
          * @since 5.3.0
          */
@@ -1588,7 +1588,7 @@ class SplPriorityQueue implements Iterator, Traversable, Countable {
 
         /**
          * Return current node index
-         * @link http://php.net/manual/en/splpriorityqueue.key.php
+         * @link http://php.net/manual/zh/splpriorityqueue.key.php
          * @return mixed The current node index.
          * @since 5.3.0
          */
@@ -1596,7 +1596,7 @@ class SplPriorityQueue implements Iterator, Traversable, Countable {
 
         /**
          * Move to the next node
-         * @link http://php.net/manual/en/splpriorityqueue.next.php
+         * @link http://php.net/manual/zh/splpriorityqueue.next.php
          * @return void 
          * @since 5.3.0
          */
@@ -1604,7 +1604,7 @@ class SplPriorityQueue implements Iterator, Traversable, Countable {
 
         /**
          * Check whether the queue contains more nodes
-         * @link http://php.net/manual/en/splpriorityqueue.valid.php
+         * @link http://php.net/manual/zh/splpriorityqueue.valid.php
          * @return bool true if the queue contains any more nodes, false otherwise.
          * @since 5.3.0
          */
@@ -1612,7 +1612,7 @@ class SplPriorityQueue implements Iterator, Traversable, Countable {
 
         /**
          * Recover from the corrupted state and allow further actions on the queue.
-         * @link http://php.net/manual/en/splpriorityqueue.recoverfromcorruption.php
+         * @link http://php.net/manual/zh/splpriorityqueue.recoverfromcorruption.php
          * @return void 
          * @since 5.3.0
          */
@@ -1626,13 +1626,13 @@ class SplPriorityQueue implements Iterator, Traversable, Countable {
  * the SplFixedArray is of fixed length and allows only integers within 
  * the range as indexes. The advantage is that it allows a faster array
  * implementation.
- * @link http://php.net/manual/en/class.splfixedarray.php
+ * @link http://php.net/manual/zh/class.splfixedarray.php
  */
 class SplFixedArray implements Iterator, Traversable, ArrayAccess, Countable {
 
         /**
          * Constructs a new fixed array
-         * @link http://php.net/manual/en/splfixedarray.construct.php
+         * @link http://php.net/manual/zh/splfixedarray.construct.php
          * @param int $size [optional]
          * @since 5.3.0
          */
@@ -1640,7 +1640,7 @@ class SplFixedArray implements Iterator, Traversable, ArrayAccess, Countable {
 
         /**
          * Returns the size of the array
-         * @link http://php.net/manual/en/splfixedarray.count.php
+         * @link http://php.net/manual/zh/splfixedarray.count.php
          * @return int the size of the array.
          * @since 5.3.0
          */
@@ -1648,7 +1648,7 @@ class SplFixedArray implements Iterator, Traversable, ArrayAccess, Countable {
 
         /**
          * Returns a PHP array from the fixed array
-         * @link http://php.net/manual/en/splfixedarray.toarray.php
+         * @link http://php.net/manual/zh/splfixedarray.toarray.php
          * @return array a PHP array, similar to the fixed array.
          * @since 5.3.0
          */
@@ -1656,7 +1656,7 @@ class SplFixedArray implements Iterator, Traversable, ArrayAccess, Countable {
 
         /**
 	 * Import a PHP array in a <b>SplFixedArray</b> instance
-         * @link http://php.net/manual/en/splfixedarray.fromarray.php
+         * @link http://php.net/manual/zh/splfixedarray.fromarray.php
          * @param array $array <p>
          * The array to import.
          * </p>
@@ -1671,7 +1671,7 @@ class SplFixedArray implements Iterator, Traversable, ArrayAccess, Countable {
 
         /**
          * Gets the size of the array
-         * @link http://php.net/manual/en/splfixedarray.getsize.php
+         * @link http://php.net/manual/zh/splfixedarray.getsize.php
          * @return int the size of the array, as an integer.
          * @since 5.3.0
          */
@@ -1679,7 +1679,7 @@ class SplFixedArray implements Iterator, Traversable, ArrayAccess, Countable {
 
         /**
          * Change the size of an array
-         * @link http://php.net/manual/en/splfixedarray.setsize.php
+         * @link http://php.net/manual/zh/splfixedarray.setsize.php
          * @param int $size <p>
          * The new array size.
          * </p>
@@ -1690,7 +1690,7 @@ class SplFixedArray implements Iterator, Traversable, ArrayAccess, Countable {
 
         /**
          * Returns whether the requested index exists
-         * @link http://php.net/manual/en/splfixedarray.offsetexists.php
+         * @link http://php.net/manual/zh/splfixedarray.offsetexists.php
          * @param int $index <p>
          * The index being checked.
          * </p>
@@ -1701,7 +1701,7 @@ class SplFixedArray implements Iterator, Traversable, ArrayAccess, Countable {
 
         /**
          * Returns the value at the specified index
-         * @link http://php.net/manual/en/splfixedarray.offsetget.php
+         * @link http://php.net/manual/zh/splfixedarray.offsetget.php
          * @param int $index <p>
          * The index with the value.
          * </p>
@@ -1712,7 +1712,7 @@ class SplFixedArray implements Iterator, Traversable, ArrayAccess, Countable {
 
         /**
          * Sets a new value at a specified index
-         * @link http://php.net/manual/en/splfixedarray.offsetset.php
+         * @link http://php.net/manual/zh/splfixedarray.offsetset.php
          * @param int $index <p>
          * The index being set.
          * </p>
@@ -1726,7 +1726,7 @@ class SplFixedArray implements Iterator, Traversable, ArrayAccess, Countable {
 
         /**
          * Unsets the value at the specified $index
-         * @link http://php.net/manual/en/splfixedarray.offsetunset.php
+         * @link http://php.net/manual/zh/splfixedarray.offsetunset.php
          * @param int $index <p>
          * The index being unset.
          * </p>
@@ -1737,7 +1737,7 @@ class SplFixedArray implements Iterator, Traversable, ArrayAccess, Countable {
 
         /**
          * Rewind iterator back to the start
-         * @link http://php.net/manual/en/splfixedarray.rewind.php
+         * @link http://php.net/manual/zh/splfixedarray.rewind.php
          * @return void 
          * @since 5.3.0
          */
@@ -1745,7 +1745,7 @@ class SplFixedArray implements Iterator, Traversable, ArrayAccess, Countable {
 
         /**
          * Return current array entry
-         * @link http://php.net/manual/en/splfixedarray.current.php
+         * @link http://php.net/manual/zh/splfixedarray.current.php
          * @return mixed The current element value.
          * @since 5.3.0
          */
@@ -1753,7 +1753,7 @@ class SplFixedArray implements Iterator, Traversable, ArrayAccess, Countable {
 
         /**
          * Return current array index
-         * @link http://php.net/manual/en/splfixedarray.key.php
+         * @link http://php.net/manual/zh/splfixedarray.key.php
          * @return int The current array index.
          * @since 5.3.0
          */
@@ -1761,7 +1761,7 @@ class SplFixedArray implements Iterator, Traversable, ArrayAccess, Countable {
 
         /**
          * Move to next entry
-         * @link http://php.net/manual/en/splfixedarray.next.php
+         * @link http://php.net/manual/zh/splfixedarray.next.php
          * @return void 
          * @since 5.3.0
          */
@@ -1769,7 +1769,7 @@ class SplFixedArray implements Iterator, Traversable, ArrayAccess, Countable {
 
         /**
          * Check whether the array contains more elements
-         * @link http://php.net/manual/en/splfixedarray.valid.php
+         * @link http://php.net/manual/zh/splfixedarray.valid.php
          * @return bool true if the array contains any more elements, false otherwise.
          * @since 5.3.0
          */
@@ -1780,13 +1780,13 @@ class SplFixedArray implements Iterator, Traversable, ArrayAccess, Countable {
 /**
  * The <b>SplObserver</b> interface is used alongside
  * <b>SplSubject</b> to implement the Observer Design Pattern.
- * @link http://php.net/manual/en/class.splobserver.php
+ * @link http://php.net/manual/zh/class.splobserver.php
  */
 interface SplObserver  {
 
         /**
          * Receive update from subject
-         * @link http://php.net/manual/en/splobserver.update.php
+         * @link http://php.net/manual/zh/splobserver.update.php
          * @param SplSubject $subject <p>
 	 * The <b>SplSubject</b> notifying the observer of an update.
          * </p>
@@ -1800,13 +1800,13 @@ interface SplObserver  {
 /**
  * The <b>SplSubject</b> interface is used alongside
  * <b>SplObserver</b> to implement the Observer Design Pattern.
- * @link http://php.net/manual/en/class.splsubject.php
+ * @link http://php.net/manual/zh/class.splsubject.php
  */
 interface SplSubject  {
 
         /**
          * Attach an SplObserver
-         * @link http://php.net/manual/en/splsubject.attach.php
+         * @link http://php.net/manual/zh/splsubject.attach.php
          * @param SplObserver $observer <p>
 	 * The <b>SplObserver</b> to attach.
          * </p>
@@ -1817,7 +1817,7 @@ interface SplSubject  {
 
         /**
          * Detach an observer
-         * @link http://php.net/manual/en/splsubject.detach.php
+         * @link http://php.net/manual/zh/splsubject.detach.php
          * @param SplObserver $observer <p>
 	 * The <b>SplObserver</b> to detach.
          * </p>
@@ -1828,7 +1828,7 @@ interface SplSubject  {
 
         /**
          * Notify an observer
-         * @link http://php.net/manual/en/splsubject.notify.php
+         * @link http://php.net/manual/zh/splsubject.notify.php
          * @return void 
          * @since 5.1.0
          */
@@ -1840,13 +1840,13 @@ interface SplSubject  {
  * The SplObjectStorage class provides a map from objects to data or, by
  * ignoring data, an object set. This dual purpose can be useful in many
  * cases involving the need to uniquely identify objects.
- * @link http://php.net/manual/en/class.splobjectstorage.php
+ * @link http://php.net/manual/zh/class.splobjectstorage.php
  */
 class SplObjectStorage implements Countable, Iterator, Traversable, Serializable, ArrayAccess {
 
         /**
          * Adds an object in the storage
-         * @link http://php.net/manual/en/splobjectstorage.attach.php
+         * @link http://php.net/manual/zh/splobjectstorage.attach.php
          * @param object $object <p>
          * The object to add.
          * </p>
@@ -1860,7 +1860,7 @@ class SplObjectStorage implements Countable, Iterator, Traversable, Serializable
 
         /**
 	 * Removes an object from the storage
-         * @link http://php.net/manual/en/splobjectstorage.detach.php
+         * @link http://php.net/manual/zh/splobjectstorage.detach.php
          * @param object $object <p>
          * The object to remove.
          * </p>
@@ -1871,7 +1871,7 @@ class SplObjectStorage implements Countable, Iterator, Traversable, Serializable
 
         /**
          * Checks if the storage contains a specific object
-         * @link http://php.net/manual/en/splobjectstorage.contains.php
+         * @link http://php.net/manual/zh/splobjectstorage.contains.php
          * @param object $object <p>
          * The object to look for.
          * </p>
@@ -1882,7 +1882,7 @@ class SplObjectStorage implements Countable, Iterator, Traversable, Serializable
 
         /**
          * Adds all objects from another storage
-         * @link http://php.net/manual/en/splobjectstorage.addall.php
+         * @link http://php.net/manual/zh/splobjectstorage.addall.php
          * @param SplObjectStorage $storage <p>
          * The storage you want to import.
          * </p>
@@ -1893,7 +1893,7 @@ class SplObjectStorage implements Countable, Iterator, Traversable, Serializable
 
         /**
          * Removes objects contained in another storage from the current storage
-         * @link http://php.net/manual/en/splobjectstorage.removeall.php
+         * @link http://php.net/manual/zh/splobjectstorage.removeall.php
          * @param SplObjectStorage $storage <p>
          * The storage containing the elements to remove.
          * </p>
@@ -1904,7 +1904,7 @@ class SplObjectStorage implements Countable, Iterator, Traversable, Serializable
 
         /**
 	 * Removes all objects except for those contained in another storage from the current storage
-	 * @link http://php.net/manual/en/splobjectstorage.removeallexcept.php
+	 * @link http://php.net/manual/zh/splobjectstorage.removeallexcept.php
 	 * @param SplObjectStorage $storage <p>
 	 * The storage containing the elements to retain in the current storage.
 	 * </p>
@@ -1915,7 +1915,7 @@ class SplObjectStorage implements Countable, Iterator, Traversable, Serializable
 
 	/**
          * Returns the data associated with the current iterator entry
-         * @link http://php.net/manual/en/splobjectstorage.getinfo.php
+         * @link http://php.net/manual/zh/splobjectstorage.getinfo.php
          * @return mixed The data associated with the current iterator position.
          * @since 5.3.0
          */
@@ -1923,7 +1923,7 @@ class SplObjectStorage implements Countable, Iterator, Traversable, Serializable
 
         /**
          * Sets the data associated with the current iterator entry
-         * @link http://php.net/manual/en/splobjectstorage.setinfo.php
+         * @link http://php.net/manual/zh/splobjectstorage.setinfo.php
          * @param mixed $data <p>
          * The data to associate with the current iterator entry.
          * </p>
@@ -1934,7 +1934,7 @@ class SplObjectStorage implements Countable, Iterator, Traversable, Serializable
 
         /**
          * Returns the number of objects in the storage
-         * @link http://php.net/manual/en/splobjectstorage.count.php
+         * @link http://php.net/manual/zh/splobjectstorage.count.php
          * @return int The number of objects in the storage.
          * @since 5.1.0
          */
@@ -1942,7 +1942,7 @@ class SplObjectStorage implements Countable, Iterator, Traversable, Serializable
 
         /**
          * Rewind the iterator to the first storage element
-         * @link http://php.net/manual/en/splobjectstorage.rewind.php
+         * @link http://php.net/manual/zh/splobjectstorage.rewind.php
          * @return void 
          * @since 5.1.0
          */
@@ -1950,7 +1950,7 @@ class SplObjectStorage implements Countable, Iterator, Traversable, Serializable
 
         /**
          * Returns if the current iterator entry is valid
-         * @link http://php.net/manual/en/splobjectstorage.valid.php
+         * @link http://php.net/manual/zh/splobjectstorage.valid.php
 	 * @return bool true if the iterator entry is valid, false otherwise.
          * @since 5.1.0
          */
@@ -1958,7 +1958,7 @@ class SplObjectStorage implements Countable, Iterator, Traversable, Serializable
 
         /**
          * Returns the index at which the iterator currently is
-         * @link http://php.net/manual/en/splobjectstorage.key.php
+         * @link http://php.net/manual/zh/splobjectstorage.key.php
          * @return int The index corresponding to the position of the iterator.
          * @since 5.1.0
          */
@@ -1966,7 +1966,7 @@ class SplObjectStorage implements Countable, Iterator, Traversable, Serializable
 
         /**
          * Returns the current storage entry
-         * @link http://php.net/manual/en/splobjectstorage.current.php
+         * @link http://php.net/manual/zh/splobjectstorage.current.php
          * @return object The object at the current iterator position.
          * @since 5.1.0
          */
@@ -1974,7 +1974,7 @@ class SplObjectStorage implements Countable, Iterator, Traversable, Serializable
 
         /**
          * Move to the next entry
-         * @link http://php.net/manual/en/splobjectstorage.next.php
+         * @link http://php.net/manual/zh/splobjectstorage.next.php
          * @return void 
          * @since 5.1.0
          */
@@ -1982,7 +1982,7 @@ class SplObjectStorage implements Countable, Iterator, Traversable, Serializable
 
         /**
          * Unserializes a storage from its string representation
-         * @link http://php.net/manual/en/splobjectstorage.unserialize.php
+         * @link http://php.net/manual/zh/splobjectstorage.unserialize.php
          * @param string $serialized <p>
          * The serialized representation of a storage.
          * </p>
@@ -1993,7 +1993,7 @@ class SplObjectStorage implements Countable, Iterator, Traversable, Serializable
 
         /**
          * Serializes the storage
-         * @link http://php.net/manual/en/splobjectstorage.serialize.php
+         * @link http://php.net/manual/zh/splobjectstorage.serialize.php
          * @return string A string representing the storage.
          * @since 5.2.2
          */
@@ -2001,7 +2001,7 @@ class SplObjectStorage implements Countable, Iterator, Traversable, Serializable
 
         /**
          * Checks whether an object exists in the storage
-         * @link http://php.net/manual/en/splobjectstorage.offsetexists.php
+         * @link http://php.net/manual/zh/splobjectstorage.offsetexists.php
          * @param object $object <p>
          * The object to look for.
          * </p>
@@ -2013,7 +2013,7 @@ class SplObjectStorage implements Countable, Iterator, Traversable, Serializable
 
         /**
          * Associates data to an object in the storage
-         * @link http://php.net/manual/en/splobjectstorage.offsetset.php
+         * @link http://php.net/manual/zh/splobjectstorage.offsetset.php
          * @param object $object <p>
          * The object to associate data with.
          * </p>
@@ -2027,7 +2027,7 @@ class SplObjectStorage implements Countable, Iterator, Traversable, Serializable
 
         /**
          * Removes an object from the storage
-         * @link http://php.net/manual/en/splobjectstorage.offsetunset.php
+         * @link http://php.net/manual/zh/splobjectstorage.offsetunset.php
          * @param object $object <p>
          * The object to remove.
          * </p>
@@ -2038,7 +2038,7 @@ class SplObjectStorage implements Countable, Iterator, Traversable, Serializable
 
         /**
          * Returns the data associated with an <type>object</type>
-         * @link http://php.net/manual/en/splobjectstorage.offsetget.php
+         * @link http://php.net/manual/zh/splobjectstorage.offsetget.php
          * @param object $object <p>
          * The object to look for.
          * </p>
@@ -2049,7 +2049,7 @@ class SplObjectStorage implements Countable, Iterator, Traversable, Serializable
 
         /**
          * Calculate a unique identifier for the contained objects
-         * @link http://php.net/manual/en/splobjectstorage.gethash.php
+         * @link http://php.net/manual/zh/splobjectstorage.gethash.php
          * @param $object  <p>
          * object whose identifier is to be calculated.
          * @return string A string with the calculated identifier.
@@ -2061,7 +2061,7 @@ class SplObjectStorage implements Countable, Iterator, Traversable, Serializable
 
 /**
  * An Iterator that sequentially iterates over all attached iterators
- * @link http://php.net/manual/en/class.multipleiterator.php
+ * @link http://php.net/manual/zh/class.multipleiterator.php
  */
 class MultipleIterator implements Iterator, Traversable {
         const MIT_NEED_ANY = 0;
@@ -2072,7 +2072,7 @@ class MultipleIterator implements Iterator, Traversable {
 
         /**
          * Constructs a new MultipleIterator
-         * @link http://php.net/manual/en/multipleiterator.construct.php
+         * @link http://php.net/manual/zh/multipleiterator.construct.php
          * @param $flags [optional] Defaults to MultipleIterator::MIT_NEED_ALL | MultipleIterator::MIT_KEYS_NUMERIC
          * @since 5.3.0
          */
@@ -2080,7 +2080,7 @@ class MultipleIterator implements Iterator, Traversable {
 
         /**
          * Gets the flag information
-         * @link http://php.net/manual/en/multipleiterator.getflags.php
+         * @link http://php.net/manual/zh/multipleiterator.getflags.php
          * @return int Information about the flags, as an integer.
          * @since 5.3.0
          */
@@ -2088,7 +2088,7 @@ class MultipleIterator implements Iterator, Traversable {
 
         /**
          * Sets flags
-         * @link http://php.net/manual/en/multipleiterator.setflags.php
+         * @link http://php.net/manual/zh/multipleiterator.setflags.php
 	 * @param int $flags <p>
          * The flags to set, according to the
          * Flag Constants
@@ -2100,7 +2100,7 @@ class MultipleIterator implements Iterator, Traversable {
 
         /**
          * Attaches iterator information
-         * @link http://php.net/manual/en/multipleiterator.attachiterator.php
+         * @link http://php.net/manual/zh/multipleiterator.attachiterator.php
          * @param Iterator $iterator <p>
          * The new iterator to attach.
          * </p>
@@ -2115,7 +2115,7 @@ class MultipleIterator implements Iterator, Traversable {
 
         /**
          * Detaches an iterator
-         * @link http://php.net/manual/en/multipleiterator.detachiterator.php
+         * @link http://php.net/manual/zh/multipleiterator.detachiterator.php
          * @param Iterator $iterator <p>
          * The iterator to detach.
          * </p>
@@ -2126,7 +2126,7 @@ class MultipleIterator implements Iterator, Traversable {
 
         /**
          * Checks if an iterator is attached
-         * @link http://php.net/manual/en/multipleiterator.containsiterator.php
+         * @link http://php.net/manual/zh/multipleiterator.containsiterator.php
          * @param Iterator $iterator <p>
          * The iterator to check.
          * </p>
@@ -2137,7 +2137,7 @@ class MultipleIterator implements Iterator, Traversable {
 
         /**
          * Gets the number of attached iterator instances
-         * @link http://php.net/manual/en/multipleiterator.countiterators.php
+         * @link http://php.net/manual/zh/multipleiterator.countiterators.php
          * @return void The number of attached iterator instances (as an integer).
          * @since 5.3.0
          */
@@ -2145,7 +2145,7 @@ class MultipleIterator implements Iterator, Traversable {
 
         /**
          * Rewinds all attached iterator instances
-         * @link http://php.net/manual/en/multipleiterator.rewind.php
+         * @link http://php.net/manual/zh/multipleiterator.rewind.php
          * @return void 
          * @since 5.3.0
          */
@@ -2153,7 +2153,7 @@ class MultipleIterator implements Iterator, Traversable {
 
         /**
          * Checks the validity of sub iterators
-         * @link http://php.net/manual/en/multipleiterator.valid.php
+         * @link http://php.net/manual/zh/multipleiterator.valid.php
          * @return void true if one or all sub iterators are valid depending on flags,
          * otherwise false
          * @since 5.3.0
@@ -2162,7 +2162,7 @@ class MultipleIterator implements Iterator, Traversable {
 
         /**
          * Gets the registered iterator instances
-         * @link http://php.net/manual/en/multipleiterator.key.php
+         * @link http://php.net/manual/zh/multipleiterator.key.php
          * @return array An array of all registered iterator instances,
          * or false if no sub iterator is attached.
          * @since 5.3.0
@@ -2171,7 +2171,7 @@ class MultipleIterator implements Iterator, Traversable {
 
         /**
          * Gets the registered iterator instances
-         * @link http://php.net/manual/en/multipleiterator.current.php
+         * @link http://php.net/manual/zh/multipleiterator.current.php
          * @return void An array of all registered iterator instances,
          * or false if no sub iterator is attached.
          * @since 5.3.0
@@ -2180,7 +2180,7 @@ class MultipleIterator implements Iterator, Traversable {
 
         /**
          * Moves all attached iterator instances forward
-         * @link http://php.net/manual/en/multipleiterator.next.php
+         * @link http://php.net/manual/zh/multipleiterator.next.php
          * @return void 
          * @since 5.3.0
          */

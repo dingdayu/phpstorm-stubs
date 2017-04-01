@@ -4,13 +4,13 @@
 
 /**
  * Represents an element in an XML document.
- * @link http://php.net/manual/en/class.simplexmlelement.php
+ * @link http://php.net/manual/zh/class.simplexmlelement.php
  */
 class SimpleXMLElement implements Traversable {
 
 	/**
 	 * Creates a new SimpleXMLElement object
-	 * @link http://php.net/manual/en/simplexmlelement.construct.php
+	 * @link http://php.net/manual/zh/simplexmlelement.construct.php
      * @param string $data A well-formed XML string or the path or URL to an XML document if data_is_url is TRUE.
      * @param int $options Optionally used to specify additional Libxml parameters.
      * @param bool $data_is_url By default, data_is_url is FALSE.
@@ -30,7 +30,7 @@ class SimpleXMLElement implements Traversable {
 
 	/**
 	 * Return a well-formed XML string based on SimpleXML element
-	 * @link http://php.net/manual/en/simplexmlelement.asxml.php
+	 * @link http://php.net/manual/zh/simplexmlelement.asxml.php
 	 * @param string $filename [optional] <p>
 	 * If specified, the function writes the data to the file rather than
 	 * returning it.
@@ -46,7 +46,7 @@ class SimpleXMLElement implements Traversable {
 	/**
 	 * Alias of <b>SimpleXMLElement::asXML</b>
      * Return a well-formed XML string based on SimpleXML element
-	 * @link http://php.net/manual/en/simplexmlelement.savexml.php
+	 * @link http://php.net/manual/zh/simplexmlelement.savexml.php
      * @param string $filename [optional] <p>
    	 * If specified, the function writes the data to the file rather than
    	 * returning it.
@@ -61,7 +61,7 @@ class SimpleXMLElement implements Traversable {
 
 	/**
 	 * Runs XPath query on XML data
-	 * @link http://php.net/manual/en/simplexmlelement.xpath.php
+	 * @link http://php.net/manual/zh/simplexmlelement.xpath.php
 	 * @param string $path <p>
 	 * An XPath path
 	 * </p>
@@ -73,7 +73,7 @@ class SimpleXMLElement implements Traversable {
 
 	/**
 	 * Creates a prefix/ns context for the next XPath query
-	 * @link http://php.net/manual/en/simplexmlelement.registerxpathnamespace.php
+	 * @link http://php.net/manual/zh/simplexmlelement.registerxpathnamespace.php
 	 * @param string $prefix <p>
 	 * The namespace prefix to use in the XPath query for the namespace given in
 	 * <i>ns</i>.
@@ -90,7 +90,7 @@ class SimpleXMLElement implements Traversable {
 
 	/**
 	 * Identifies an element's attributes
-	 * @link http://php.net/manual/en/simplexmlelement.attributes.php
+	 * @link http://php.net/manual/zh/simplexmlelement.attributes.php
 	 * @param string $ns [optional] <p>
 	 * An optional namespace for the retrieved attributes
 	 * </p>
@@ -109,7 +109,7 @@ class SimpleXMLElement implements Traversable {
 
 	/**
 	 * Finds children of given node
-	 * @link http://php.net/manual/en/simplexmlelement.children.php
+	 * @link http://php.net/manual/zh/simplexmlelement.children.php
 	 * @param string $ns [optional] <p>
 	 * An XML namespace.
 	 * </p>
@@ -127,7 +127,7 @@ class SimpleXMLElement implements Traversable {
 
 	/**
 	 * Returns namespaces used in document
-	 * @link http://php.net/manual/en/simplexmlelement.getnamespaces.php
+	 * @link http://php.net/manual/zh/simplexmlelement.getnamespaces.php
 	 * @param bool $recursive [optional] <p>
 	 * If specified, returns all namespaces used in parent and child nodes.
 	 * Otherwise, returns only namespaces used in root node.
@@ -140,7 +140,7 @@ class SimpleXMLElement implements Traversable {
 
 	/**
 	 * Returns namespaces declared in document
-	 * @link http://php.net/manual/en/simplexmlelement.getdocnamespaces.php
+	 * @link http://php.net/manual/zh/simplexmlelement.getdocnamespaces.php
 	 * @param bool $recursive [optional] <p>
 	 * If specified, returns all namespaces declared in parent and child nodes.
 	 * Otherwise, returns only namespaces declared in root node.
@@ -157,7 +157,7 @@ class SimpleXMLElement implements Traversable {
 
 	/**
 	 * Gets the name of the XML element
-	 * @link http://php.net/manual/en/simplexmlelement.getname.php
+	 * @link http://php.net/manual/zh/simplexmlelement.getname.php
 	 * @return string The getName method returns as a string the
 	 * name of the XML tag referenced by the SimpleXMLElement object.
 	 * @since 5.1.3
@@ -166,7 +166,7 @@ class SimpleXMLElement implements Traversable {
 
 	/**
 	 * Adds a child element to the XML node
-	 * @link http://php.net/manual/en/simplexmlelement.addchild.php
+	 * @link http://php.net/manual/zh/simplexmlelement.addchild.php
 	 * @param string $name <p>
 	 * The name of the child element to add.
 	 * </p>
@@ -184,7 +184,7 @@ class SimpleXMLElement implements Traversable {
 
 	/**
 	 * Adds an attribute to the SimpleXML element
-	 * @link http://php.net/manual/en/simplexmlelement.addattribute.php
+	 * @link http://php.net/manual/zh/simplexmlelement.addattribute.php
 	 * @param string $name <p>
 	 * The name of the attribute to add.
 	 * </p>
@@ -202,14 +202,14 @@ class SimpleXMLElement implements Traversable {
 	/**
 	 * (No version information available, might only be in SVN)<br/>
 	 * Returns the string content
-	 * @link http://php.net/manual/en/simplexmlelement.tostring.php
+	 * @link http://php.net/manual/zh/simplexmlelement.tostring.php
 	 * @return string the string content on success or an empty string on failure.
 	 */
 	public function __toString () {}
 
 	/**
 	 * Counts the children of an element
-	 * @link http://php.net/manual/en/simplexmlelement.count.php
+	 * @link http://php.net/manual/zh/simplexmlelement.count.php
 	 * @return int the number of elements of an element.
 	 * @since 5.3.0
 	 */
@@ -219,13 +219,13 @@ class SimpleXMLElement implements Traversable {
 
 /**
  * The SimpleXMLIterator provides recursive iteration over all nodes of a <b>SimpleXMLElement</b> object.
- * @link http://php.net/manual/en/class.simplexmliterator.php
+ * @link http://php.net/manual/zh/class.simplexmliterator.php
  */
 class SimpleXMLIterator extends SimpleXMLElement implements Traversable, RecursiveIterator, Iterator, Countable {
 
 	/**
 	 * Rewind to the first element
-	 * @link http://php.net/manual/en/simplexmliterator.rewind.php
+	 * @link http://php.net/manual/zh/simplexmliterator.rewind.php
 	 * @return void No value is returned.
 	 * @since 5.1.0
 	 */
@@ -233,7 +233,7 @@ class SimpleXMLIterator extends SimpleXMLElement implements Traversable, Recursi
 
 	/**
 	 * Check whether the current element is valid
-	 * @link http://php.net/manual/en/simplexmliterator.valid.php
+	 * @link http://php.net/manual/zh/simplexmliterator.valid.php
 	 * @return bool <b>TRUE</b> if the current element is valid, otherwise <b>FALSE</b>
 	 * @since 5.1.0
 	 */
@@ -241,7 +241,7 @@ class SimpleXMLIterator extends SimpleXMLElement implements Traversable, Recursi
 
 	/**
 	 * Returns the current element
-	 * @link http://php.net/manual/en/simplexmliterator.current.php
+	 * @link http://php.net/manual/zh/simplexmliterator.current.php
 	 * @return mixed the current element as a <b>SimpleXMLIterator</b> object or <b>NULL</b> on failure.
 	 * @since 5.1.0
 	 */
@@ -249,7 +249,7 @@ class SimpleXMLIterator extends SimpleXMLElement implements Traversable, Recursi
 
 	/**
 	 * Return current key
-	 * @link http://php.net/manual/en/simplexmliterator.key.php
+	 * @link http://php.net/manual/zh/simplexmliterator.key.php
 	 * @return mixed the XML tag name of the element referenced by the current <b>SimpleXMLIterator</b> object or <b>FALSE</b>
 	 * @since 5.1.0
 	 */
@@ -257,7 +257,7 @@ class SimpleXMLIterator extends SimpleXMLElement implements Traversable, Recursi
 
 	/**
 	 * Move to next element
-	 * @link http://php.net/manual/en/simplexmliterator.next.php
+	 * @link http://php.net/manual/zh/simplexmliterator.next.php
 	 * @return void No value is returned.
 	 * @since 5.1.0
 	 */
@@ -265,7 +265,7 @@ class SimpleXMLIterator extends SimpleXMLElement implements Traversable, Recursi
 
 	/**
 	 * Checks whether the current element has sub elements.
-	 * @link http://php.net/manual/en/simplexmliterator.haschildren.php
+	 * @link http://php.net/manual/zh/simplexmliterator.haschildren.php
 	 * @return bool <b>TRUE</b> if the current element has sub-elements, otherwise <b>FALSE</b>
 	 * @since 5.1.0
 	 */
@@ -273,7 +273,7 @@ class SimpleXMLIterator extends SimpleXMLElement implements Traversable, Recursi
 
 	/**
 	 * Returns the sub-elements of the current element
-	 * @link http://php.net/manual/en/simplexmliterator.getchildren.php
+	 * @link http://php.net/manual/zh/simplexmliterator.getchildren.php
 	 * @return SimpleXMLIterator a <b>SimpleXMLIterator</b> object containing
 	 * the sub-elements of the current element.
 	 * @since 5.1.0
@@ -283,14 +283,14 @@ class SimpleXMLIterator extends SimpleXMLElement implements Traversable, Recursi
 	/**
 	 * (No version information available, might only be in SVN)<br/>
 	 * Returns the string content
-	 * @link http://php.net/manual/en/simplexmlelement.tostring.php
+	 * @link http://php.net/manual/zh/simplexmlelement.tostring.php
 	 * @return string the string content on success or an empty string on failure.
 	 */
 	public function __toString () {}
 
 	/**
 	 * Counts the children of an element
-	 * @link http://php.net/manual/en/simplexmlelement.count.php
+	 * @link http://php.net/manual/zh/simplexmlelement.count.php
 	 * @return int the number of elements of an element.
 	 * @since 5.3.0
 	 */
@@ -300,7 +300,7 @@ class SimpleXMLIterator extends SimpleXMLElement implements Traversable, Recursi
 
 /**
  * Interprets an XML file into an object
- * @link http://php.net/manual/en/function.simplexml-load-file.php
+ * @link http://php.net/manual/zh/function.simplexml-load-file.php
  * @param string $filename <p>
  * Path to the XML file
  * </p>
@@ -337,7 +337,7 @@ function simplexml_load_file ($filename, $class_name = "SimpleXMLElement", $opti
 
 /**
  * Interprets a string of XML into an object
- * @link http://php.net/manual/en/function.simplexml-load-string.php
+ * @link http://php.net/manual/zh/function.simplexml-load-string.php
  * @param string $data <p>
  * A well-formed XML string
  * </p>
@@ -366,7 +366,7 @@ function simplexml_load_string ($data, $class_name = "SimpleXMLElement", $option
 
 /**
  * Get a SimpleXMLElement object from a DOM node.
- * @link http://php.net/manual/en/function.simplexml-import-dom.php
+ * @link http://php.net/manual/zh/function.simplexml-import-dom.php
  * @param DOMNode $node <p>
  * A DOM Element node
  * </p>
